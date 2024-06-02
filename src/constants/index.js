@@ -1,28 +1,27 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate FrontEnd developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like  HTML,CSS,Bootstrap,JavaScript,React,TailwindCss and Next.js. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.  I have worked with a variety of technologies, including React, Next.js, Node.js, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile FrontEnd developer with a passion for creating efficient and user-friendly interfaces.  I have worked with a variety of technologies, including Html,CSS,Bootstrap,JavaScript,React,TailwindCss and Next js. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies.`;
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "TRAVEL BOOKING",
     image: project1,
-    demo: "https://www.google.com",
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    demo: "https://react-travel-chi.vercel.app/",
+    description: "A TRAVEL BOOKING website build using React and tailwindCss.",
+    technologies: ["React", "TailwindCss"],
   },
   {
-    title: "Task Management App",
+    title: "BIG DATA ANALYTICS",
     image: project2,
-    demo: "https://anandu-ajesh.github.io/portfolio/",
+    demo: "https://bigdata-weld.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React"],
+      "A BigData Analytics website build using React and Tailwind Css",
+    technologies: ["HTML", "CSS", "React", "Tailwind Css"],
   },
   {
     title: "Portfolio Website",
@@ -43,7 +42,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Nandanam,Thannikkamukku,Kandachira,Perinad PO Kollam ",
+  address: "Nandanam,Thannikkamukku,Kandachira,Perinad PO Kollam",
   phoneNo: "+91 7994629613",
   email: "ajeshanandu566@gmail.com",
 };

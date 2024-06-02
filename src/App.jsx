@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Design from "./components/Design";
 
 const App = () => {
   return (
@@ -22,6 +23,10 @@ const App = () => {
         <Projects />
         <Contacts />
       </div>
+      <div className="w-full h-screen absolute top-0 left-0">
+        <Design />
+      </div>
+
     </div>
   );
 };
